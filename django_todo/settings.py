@@ -12,10 +12,6 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-
-
-
-
 import os
 import dj_database_url
 
