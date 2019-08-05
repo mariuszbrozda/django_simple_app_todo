@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #  }
 #}
-DATABASES = {'default': dj_database_url.parse("postgres://tuscuncqxjfemg:8316120671d74a3b42adf1e010c9ce26a986d66b2d35e1ed264847c0bf315a6a@ec2-54-228-246-214.eu-west-1.compute.amazonaws.com:5432/daj1rlf3h5q562")}
+DATABASES = {'default': dj_database_url.parse(os.environ("C9_HOSTNAME"), os.environ("HOSTNAME"))}
 
 
 # Password validation
