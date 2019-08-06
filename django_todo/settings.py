@@ -39,7 +39,7 @@ SECRET_KEY = '+#)rng-+q-&4s((9y8qm#7)63lyhgq%yl-!8fzv83(_zg%#_rr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), os.environ.get('HOSTNAME')]
+ALLOWED_HOSTS = ['django-simple-todo-app.herokuapp.com', os.environ.get('HOSTNAME')]
 
 
 # Application definition
